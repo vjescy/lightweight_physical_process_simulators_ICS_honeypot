@@ -21,5 +21,8 @@ Sometimes, even on a system with GUI, naviagting the environment and configuring
 
 Sometimes while running the build_system.sh there might appear an error regarding not being able to install some dependencies. Running the script again should resolve that.
 
+If while running the system, there is error that an address of some PLC is already in sue, use this command sudo docker rm -fv $(sudo docker ps -aq) 
+
+
 ## Addressing and Accessing the interface
 
